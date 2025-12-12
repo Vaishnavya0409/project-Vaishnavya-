@@ -1,0 +1,137 @@
+p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.logo{
+    height:35px;
+    width:35px;
+}
+body{
+    margin:0;
+}
+.thumbnail{
+    width:100%;
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.search-bar{
+    display: inline-block;
+    font-size:20px;
+    font-family:Arial;
+    flex:1;
+    height:36px;
+    background-color:rgb(255,255,255);
+    border-color:rgb(204,204,204);
+    border-style: solid;
+    border-width: 1px;
+}
+.search-bar::placeholder{
+    color:grey;
+    padding-left:5px;
+    font-size:20px;
+}
+.search-button{
+    height:40px;
+    width:66px;
+    background-color:rgb(255,255,255);
+    border-color:rgb(204,204,204);
+    border-style: solid;
+    margin:-1px;
+    cursor:pointer;
+}
+.search-icon{
+    height:25px;
+    margin-top:4px;
+    background-color:rgb(255,255,255);
+
+}
+.voice-searchbutton{
+    height:40px;
+    width:50px;
+    margin-left:10px;
+    border-radius: 70px;
+    background-color: rgb(255,255,255);
+    border:none;
+}
+.voice-search-icon{
+    height:25px;
+}
+.video-title{
+    margin-top:0;
+    font-family:Arial;
+    font-size: 16px;
+    font-weight:500;
+    line-height:20px;
+    margin-bottom:12px;
+}
+.video-info-grid{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profile-picture{
+    border-radius:100px;
+    width:45px;
+}
+.thumbnail-row{
+    margin-bottom:12px;
+}
+.video-author{
+    margin-bottom:4px;
+    font-size:12px;
+    cursor:pointer;
+    color:rgb(96,96,96);
+    font-family:Arial;
+}
+.video-stats{
+    margin-bottom:4px;
+    font-size:12px;
+    cursor:pointer;
+    color:rgb(96,96,96);
+}
+
+.header{
+    height: 55px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.left-section{
+    display:flex;
+    align-items:center;
+}
+.hamburger-menu{
+    margin-left:24px;
+    margin-right:24px;
+    height:24px;
+}
+.youtube-logo{
+    height:24px;
+}
+
+.middle-section{
+    display:flex;
+    align-items:center;
+    flex:1;
+    margin-left:70px;
+    margin-right:35px;
+    max-width:500px;
+}
+.right-section{
+    width: 200px;
+    background-color:white;
+
+}
+.id-button {
+    height:35px;
+    margin-top:10px;
+    align-items:center;
+    background-color:white;
+}
